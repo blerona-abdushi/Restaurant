@@ -1,0 +1,113 @@
+{
+"categories": {
+    "breakfest": [
+        {
+            "name":"pancakes",
+            "price":5.0,
+            "image": "img/pancake.jpg",
+            "rating": 4.5,
+            "preparationTime": "10-15 min"
+
+        },
+        {
+            "name": "Omletee",
+            "price": 3.7,
+            "image": "img/omlet.jpg",
+            "rating":5.0,
+            "preparationTime": "8-10 min"
+        
+        },
+        {
+            "name": "avocado toast",
+            "price":3.0,
+            "image":"img/avocado toast.jpg",
+            "rating":"4.5",
+            "preparationTime":"7-9 min"
+        }
+    ],
+    "Lunch": [
+        {
+        "name":"Lasagna",
+            "price":5.0,
+            "image": "img/lasagna.jpg",
+            "rating": 5.0,
+            "preparationTime": "25-30 min"
+
+        },
+        {
+            "name": "Margarita",
+            "price": 3.5,
+            "image": "img/maragarita.jpg",
+            "rating":5.0,
+            "preparationTime": "20-25 min"
+        
+        },
+        {
+            "name": "salad",
+            "price":3.0,
+            "image":"img/salad.jpg",
+            "rating":"3.5",
+            "preparationTime":"8-10 min"
+    
+        },
+        {
+            "name": "Burger",
+            "price": 3.5,
+            "image": "img/burger.jpg",
+            "rating":5.0,
+            "preparationTime":"10-15 min"
+        }
+    ],
+    "Dinner": [
+        {
+            "name" : "Steak",
+            "price": 12.5,
+            "image": "img/steak.jpg",
+            "rating": 4.5,
+            "preparationTime": "20-25 min"
+
+        },
+        {
+            "name": "fish",
+            "price": 5.75,
+            "image": "img/fish.jpg",
+            "rating":5.0,
+            "preparationTime":"10-15 min"
+        },
+    {
+        "name": "shrimp",
+            "price": 3.5,
+            "image": "img/shrimp.jpg",
+            "rating":4.5,
+            "preparationTime":"15-20 min"
+    }
+
+    ],
+    "Dessert": [
+        {
+            "name": "cake",
+            "price": 3.7,
+            "image": "img/cake.jpg",
+            "rating":5.0,
+            "preparationTime":"8-10 min"
+
+        },
+        {
+            "name": "ice cream",
+            "price": 3.5,
+            "image": "img/ice cream.jpg",
+            "rating":4.8,
+            "preparationTime":"5-7 min"
+        },
+        {
+            "name": "Baklava",
+            "price": 4.5,
+            "image": "img/baklava.jpg",
+            "rating":5.0,
+            "preparationTime":"6-8 min"
+        }
+    
+    ]
+
+}
+}
