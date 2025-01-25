@@ -3,448 +3,218 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Restorantista</title>
-
-    <!-- FONT AWESOME LINKS -->
+    <title>Document</title>
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="menu.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="variables.css">
+    <!--stlyless cs -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <!--google fonts-->
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Inspiration&family=Irish+Grover&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Justify-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js@1.12.0/src/toastify.min.css">
+  </head>
 
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Irish+Grover&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <!-- HEADER NAVBAR -->
-    <header class="bg-primary text-white">
-    <nav class="navbar">
+  <body>
+    <header class="bg-primary">
+      <nav class="navbar">
         <div class="navbar-logo">
-        <a href="index.html">Restorantista</a>
+          <a href="index.html">Restaurantista</a>
         </div>
         <ul class="navbar-menu">
-    <li><a href="index.html" class="text-white">Home</a></li>
-        <li>
-            <a href="menu.css" class="text-white active"
-            >Menu<i class="fa-solid fa-cart-shopping"></i
-            ><span class="badge">0</span></a
-            >
-        </li>
+          <li><a href="index.html" class="text-white active">Home</a></li>
+          <li>
+            <a href="#" class="text-white"
+              >Menu<i class="fa-solid fa-cart-shopping"></i
+              ><span id="cart-badge" class="badge">0</span>
+            </a>
+          </li>
         </ul>
-    </nav>
+      </nav>
     </header>
-    <!-- HEADER NAVBAR-->
+
     <div class="menu-layout">
-    <div class="menu">
+      <div class="menu">
         <div class="menu-categories">
-        <div class="menu-category active">
-            <img
-            src="img/breakfest.jpg"
-            alt="breakfast"
-            class="menu-category-img"
-            />
+          <div class="menu-category active">
+            <img src="img/breakfest.jpg" alt="" class="menu-category-img" />
             <div class="menu-category-info">
-            <h3 class="menu-category-title">Breakfast</h3>
-            <p class="text-gray">22 items in stock</p>
+              <h3 class="menu-category-title">Brekfest</h3>
+              <p class="text-grey">22 items in stock</p>
             </div>
+          </div>
+          <div class="menu-category">
+            <img src="img/lunch.jpg" alt="" class="menu-category-img" />
+            <div class="menu-category-info">
+              <h3 class="menu-category-title">lunch</h3>
+              <p class="text-grey">22 items in stock</p>
+            </div>
+          </div>
+          <div class="menu-category">
+            <img src="img/dinner.jpg alt="" class="menu-category-img" />
+            <div class="menu-category-info">
+              <h3 class="menu-category-title">dinner</h3>
+              <p class="text-grey">22 items in stock</p>
+            </div>
+          </div>
+          <div class="menu-category">
+            <img src="img/beverages.jpg" alt="" class="menu-category-img" />
+            <div class="menu-category-info">
+              <h3 class="menu-category-title">beverages</h3>
+              <p class="text-grey">22 items in stock</p>
+            </div>
+          </div>
+          <div class="menu-category">
+            <img src="img/side dish.jpg" alt="" class="menu-category-img" />
+            <div class="menu-category-info">
+              <h3 class="menu-category-title">Side dish</h3>
+              <p class="text-grey">22 items in stock</p>
+            </div>
+          </div>
         </div>
-
-        <div class="menu-category">
-            <img
-            src="img/lunch.jpg"
-            alt="Lunch"
-            class="menu-category-img"
-            />
-            <div class="menu-category-info">
-            <h3 class="menu-category-title">Lunch</h3>
-            <p class="text-gray">22 items in stock</p>
-            </div>
-        </div>
-
-        <div class="menu-category">
-            <img
-            src="img/dinner.jpg"
-            alt="Dinner"
-            class="menu-category-img"
-            />
-            <div class="menu-category-info">
-            <h3 class="menu-category-title">Dinner</h3>
-    <p class="text-gray">22 items in stock</p>
-            </div>
-        </div>
-
-        <div class="menu-category">
-            <img
-            src="img/soup.jpg"
-            alt="soup"
-            class="menu-category-img"
-            />
-            <div class="menu-category-info">
-            <h3 class="menu-category-title">Soup</h3>
-            <p class="text-gray">22 items in stock</p>
-            </div>
-        </div>
-
-        <div class="menu-category">
-            <img
-            src="img/dessert.jpg"
-            alt="dessert"
-            class="menu-category-img"
-            />
-            <div class="menu-category-info">
-            <h3 class="menu-category-title">Dessert</h3>
-            <p class="text-gray">22 items in stock</p>
-            </div>
-        </div>
-
-        <div class="menu-category">
-            <img
-            src="img/side dish.jpg"
-            alt="sidedish"
-            class="menu-category-img"
-            />
-            <div class="menu-category-info">
-            <h3 class="menu-category-title">Side Dish</h3>
-            <p class="text-gray">22 items in stock</p>
-            </div>
-        </div>
-
-        <div class="menu-category">
-            <img
-            src="img/appetizer.jpg"
-            alt="appetizer"
-            class="menu-category-img"
-            />
-            <div class="menu-category-info">
-            <h3 class="menu-category-title">Appetizer</h3>
-            <p class="text-gray">22 items in stock</p>
-            </div>
-        </div>
-
-        <div class="menu-category">
-            <img
-            src="img/beverages.jpg"
-            alt="beverages"
-            class="menu-category-img"
-            />
-            <div class="menu-category-info">
-            <h3 class="menu-category-title">Beverages</h3>
-            <p class="text-gray">22 items in stock</p>
-            </div>
-            </div>
-        
-            
-        
-    
-        
-        
-
-        <!-- MENU ITEMS -->
-        <h1 class="primary-title">Lunch menu
-            </h1>
+        <h1 class="primary-title">Breakfeast Menu</h1>
 
         <div class="menu-items">
-        <div class="menu-item">
+          <div class="menu-item">
             <div class="menu-item-header">
-            <img
-                src="img/margarita.jpg"
-                alt="breakfast"
+              <img
+                src="img/breakfest.jpg"
+                alt="Breakfeast"
                 class="menu-item-img"
-            />
-            <div class="menu-item-title">
-                <h3>Pizza Margarita</h3>
-                <p class="menu-item-desc text-gray">
-                Lorem ipsum dolor amet sit dolor.
-                </p>
-            </div>
-            </div>
-            <div class="menu-item-footer">
-            <h3 class="menu-item-price">
-                <span class="text-gray">$</span>13.3
-            </h3>
-            <button class="menu-item-button">Add to card</button>
-            </div>
-        </div>
-
-        <div class="menu-item">
-            <div class="menu-item-header">
-            <img
-                src="img/margarita.jpg"
-                alt="breakfast"
-                class="menu-item-img"
-            />
-            <div class="menu-item-title">
+              />
+              <div class="menu-item-title">
                 <h3>Margarita</h3>
-                <p class="menu-item-desc text-gray">
-                Lorem ipsum dolor amet sit dolor.
+                <p class="menu-item-desc text-grey">
+                  ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                  quod.
                 </p>
-            </div>
+              </div>
             </div>
             <div class="menu-item-footer">
-            <h3 class="menu-item-price">
-                <span class="text-gray">$</span>13.3
-            </h3>
-            <button class="menu-item-button">Add to card</button>
+              <h3 class="menu-item-price">
+                <span class="text-grey">$</span>23.5
+              </h3>
+              <button class="menu-item-button">Add to cart</button>
             </div>
+          </div>
         </div>
-
-        <div class="menu-item">
-            <div class="menu-item-header">
-            <img
-                src="img/margarita.jpg"
-                alt="breakfast"
-                class="menu-item-img"
-            />
-            <div class="menu-item-title">
-                <h3>Margarita</h3>
-                <p class="menu-item-desc text-gray">
-                Lorem ipsum dolor amet sit dolor.
-                </p>
-            </div>
-            </div>
-            <div class="menu-item-footer">
-            <h3 class="menu-item-price">
-                <span class="text-gray">$</span>13.3
-            </h3>
-            <button class="menu-item-button">Add to card</button>
-            </div>
-        </div>
-
-        <div class="menu-item">
-            <div class="menu-item-header">
-            <img
-                src="img/margarita.jpg"
-                alt="breakfast"
-                class="menu-item-img"
-            />
-            <div class="menu-item-title">
-                <h3>Margarita</h3>
-                <p class="menu-item-desc text-gray">
-                Lorem ipsum dolor amet sit dolor.
-                </p>
-            </div>
-            </div>
-            <div class="menu-item-footer">
-            <h3 class="menu-item-price">
-                <span class="text-gray">$</span>13.3
-            </h3>
-            <button class="menu-item-button">Add to card</button>
-            </div>
-        </div>
-
-        <div class="menu-item">
-            <div class="menu-item-header">
-        <img
-                src="img/margarita.jpg"
-                alt="breakfast"
-                class="menu-item-img"
-            />
-            <div class="menu-item-title">
-                <h3>Margarita</h3>
-                <p class="menu-item-desc text-gray">
-                Lorem ipsum dolor amet sit dolor.
-                </p>
-            </div>
-            </div>
-            <div class="menu-item-footer">
-            <h3 class="menu-item-price">
-                <span class="text-gray">$</span>13.3
-            </h3>
-            <button class="menu-item-button">Add to card</button>
-            </div>
-        </div>
-
-        <div class="menu-item">
-            <div class="menu-item-header">
-            <img
-                src="img/margarita.jpg"
-                alt="breakfast"
-                class="menu-item-img"
-            />
-            <div class="menu-item-title">
-                <h3>Margarita</h3>
-                <p class="menu-item-desc text-gray">
-                Lorem ipsum dolor amet sit dolor.
-                </p>
-            </div>
-            </div>
-            <div class="menu-item-footer">
-            <h3 class="menu-item-price">
-                <span class="text-gray">$</span>13.3
-            </h3>
-            <button class="menu-item-button">Add to card</button>
-            </div>
-            </div>
-            </div>
-    
-        
-        
-    
-
-    <!-- INVOICE -->
-    <div class="invoice">
+      </div>
+      <div class="invoice">
         <div class="invoice-items">
-        <h2>Invoice</h2>
+          <h2>invoice</h2>
 
-        <div class="invoice-item">
+          <div class="invoice-item">
             <img
-            src="img/margarita.jpg"
-            alt="pizza margarita"
-            class="invoice-item-img"
+              src="img/margarita.jpg"
+              alt="pizza Margarita"
+              class="invoice-item-img"
             />
-
             <div class="invoice-item-details">
-            <h3>Pizza margarita</h3>
-            <div class="invoice-item-quantity">
+              <h3>pizzA MARGARITA</h3>
+              <div class="invoice-item-quantity">
                 <button class="quantity-btn decrease">-</button>
                 <input type="text" class="quantity-input" value="2" />
                 <button class="quantity-btn increase">+</button>
+              </div>
             </div>
-            </div>
-            <div class="invoice-item-price">
-            <h3>$25</h3>
-            </div>
+          </div>
         </div>
-
-        <div class="invoice-item">
-            <img
-            src="img/margarita.jpg"
-            alt="pizza margarita"
-            class="invoice-item-img"
-            />
-
-            <div class="invoice-item-details">
-            <h3>Pizza margarita</h3>
-            <div class="invoice-item-quantity">
-                <button class="quantity-btn decrease">-</button>
-                <input type="text" class="quantity-input" value="2" />
-                <button class="quantity-btn increase">+</button>
-            </div>
-            </div>
-            <div class="invoice-item-price">
-            <h3>$25</h3>
-            </div>
-</div>
-
-        <div class="invoice-item">
-            <img
-            src="img/margarita.jpg"
-            alt="pizza margarita"
-            class="invoice-item-img"
-            />
-
-            <div class="invoice-item-details">
-            <h3>Pizza margarita</h3>
-            <div class="invoice-item-quantity">
-                <button class="quantity-btn decrease">-</button>
-                <input type="text" class="quantity-input" value="2" />
-                <button class="quantity-btn increase">+</button>
-            
-            <div class="invoice-item-price">
-            <h3>$25</h3>
-            </div>
-            </div>
-            </div>
-            </div>
-            
-
-
-        <!-- PAYMENT SUMMARY -->
+        
         <div class="payment-summary">
-        <h3>Payment Summary</h3>
-        <div class="summary-detail">
-            <p class="text-gray">Sub Total</p>
-            <p>$131.2</p>
-        </div>
-
-        <div class="summary-detail">
+          <h3>payment-summary</h3>
+          <div class="summary-details">
+            <p class="text-gray">sub total</p>
+            <p>$39</p>
+          </div>
+          
+          <div class="summary-details">
             <p class="text-gray">Tax</p>
-            <p>$5.2</p>
+            <p>$5.4</p>
+          </div>
+          <div class="summary-total">
+            <p class="text-gray">Tax</p>
+            <p>$5.4</p>
+          </div>
+          <button id="pay-button">pay</button>
         </div>
-
-        <div class="summary-total">
-            <p class="text-gray">Total Payment</p>
-            <p>$136.4</p>
-        </div>
-        <button class="pay-button">Pay</button>
-        </div>
+      </div>
     </div>
-    </div>
-    </div>
-    </div>
-
     <!-- PAYMENT MODAL -->
     <div id="payment-modal" class="modal">
-    <div class="modal-content">
+      <div class="modal-content">
         <h3>Payment</h3>
         <hr />
         <form id="payment-form" class="payment-form">
-        <div class="form-group">
+          <div class="form-group">
             <label for="card-number">Card Number</label>
             <input
-            type="text"
-            id="card-number"
-            name="card-number"
-            placeholder="1234 1234 1234 1234"
-            required
+              type="text"
+              id="card-number"
+              name="card-number"
+              placeholder="1234 1234 1234 1234"
+              required
             />
-        </div>
-        <div class="form-group">
+          </div>
+    
+          <div class="form-group">
             <label for="expiration-date">Expiration Date</label>
             <input
-            type="text"
-            id="expiration-date"
-            name="expiration-date"
-            placeholder="MM/YY"
-            required
+              type="text"
+              id="expiration-date"
+              name="expiration-date"
+              placeholder="MM/YY"
+              required
             />
-        </div>
-        
-
-        <div class="form-group">
-            <label for="CVV">CVV</label>
+          </div>
+    
+          <div class="form-group">
+            <label for="cvv">CVV</label>
             <input
-            type="text"
-            id="cvv"
-            name="cvv"
-            placeholder="123"
-            maxlength="3"
-            required
+              type="text"
+              id="cvv"
+              name="cvv"
+              placeholder="123"
+              required
             />
-        </div>
-
-        <button type="submit" class="pay-button">Pay</button>
+          </div>
+    
+          <button type="submit" class="pay-button">Pay</button>
         </form>
-        <p class="payment-note">
-        Your personal data will be used to process your order, support your
-        experience throughout this website, and for other purposes described
-        in our privacy policy.
+    
+        <p class="Payment-note">
+          Your personal data will be used to process your order, support your
+          experience throughout this website, and for other purposes described in
+          our privacy policy.
         </p>
-    </div>
-    </div>
-    </div>
-
-    <!-- SUCCESSFULL PAYMENT MODAL -->
-    <div class="success-modal" id="success-modal">
-    <div class="modal-content">
-        <h3>Order has been paid successfully</h3>
-        <div class="checkmark">
-        <i class="fa-solid fa-check"></i>
-        </div>
+      </div>
     </div>
     
-</body>
+    <!-- SUCCESSFUL PAYMENT MODAL -->
+    <div class="success-modal" id="success-modal">
+      <div class="modal-content">
+        <h3>Order has been paid successfully</h3>
+        <div class="checkmark">
+          <i class="fa-solid fa-check"></i>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/menu.js"></script>
+    <script src="js/payment.js"></script>
+
+    <!--tostify-->
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js@1.12.0/src/toastify.min.js"></script>
+  </body>
 </html>

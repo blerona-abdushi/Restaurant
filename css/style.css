@@ -173,7 +173,7 @@ header {
 }
 
 .order-info-buttons .add-to-cart {
-  background-color: black;
+  background-color: var(--primary-color);
   color: #fff;
   width: 261px;
   height: 75px;
