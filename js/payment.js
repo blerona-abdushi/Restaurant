@@ -80,7 +80,7 @@ cvvInput.addEventListener("input", function (event) {
   let input = event.target.value.replace(/\D/g, ""); // Hiq karakteret që nuk janë numra
   input = input.substring(0, 3); // Max 3 karaktere (CVV është gjithmonë 3 shifra)
 
-  event.target.value = input;
+    event.target.value = input;
 });
 
 
