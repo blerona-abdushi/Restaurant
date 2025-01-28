@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Arbrim Thaci",
+        "role": "Ceo",
+        "image": "img/arbrim thaci.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing cursus nibh mauris, nes turpis orci lectuc maecenas."
+    },
+    {
+        "name": "Enes Shala",
+        "role": "Lead Frond-end",
+        "image": "img/enes shala.png",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing cursus nibh mauris, nes turpis orci lectuc maecenas."
+    },
+    {
+        "name": "Violeta Murat Thaci",
+        "role": "Lead Desinger",
+        "image": "img/violeta thaci.png",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing cursus nibh mauris, nes turpis orci lectuc maecenas."
+    },
+    {
+        "name": "Filan Fisteku",
+        "role": "Lead Desinger",
+        "image": "img/user.png",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing cursus nibh mauris, nes turpis orci lectuc maecenas."
+    }
+]

@@ -136,15 +136,15 @@
           <p class="stat-description">Happy customer</p>
         </div>
         <div class="stat-item">
-          <span class="stat-value" data-target="900">900</span>
+          <span class="stat-value" data-target="900">0</span>
           <p class="stat-description">Delicious Dishes</p>
         </div>
         <div class="stat-item">
-          <span class="stat-value" data-target="900">900</span>
+          <span class="stat-value" data-target="200">0</span>
           <p class="stat-description">Orders</p>
         </div>
         <div class="stat-item">
-          <span class="stat-value" data-target="900">900</span>
+          <span class="stat-value" data-target="1200">0</span>
           <p class="stat-description">Daily Website Visitors</p>
         </div>
       </div>
@@ -217,13 +217,15 @@
       <div class="email-content">
         <div class="email-image">
           <img src="img/image.bg.png" alt="Email us image">
+          <div id="contactForm"></div>
           <form class="email-form">
-            <input type="text" name="name" placeholder="Name..." required>
-            <input type="email" name="email" placeholder="Email..." required>
-            <input type="text" name="subject" placeholder="Subject..." required>
-            <textarea name="message" placeholder="Message..." rows="5" required></textarea>
+            <input type="text" id="name" name="name" placeholder="Name...">
+            <input type="email" id="emailInput" name="email" placeholder="Email..." >
+            <input type="subject" id="subject" name="subject" placeholder="Subject..." >
+            <input type="text" id="message" placeholder="Message..." rows="5">
             <button type="submit">Send Message</button>
           </form>
+          <p id="errorParagraph" class="error-message"></p>
         </div>
       </section>
   
@@ -329,8 +331,11 @@
         </div>
   
       </footer>
-      <script src="/js/subscribe.js"></script>
+      <script src="js/hero.js"></script>
       <script src="js/subscribe.js"></script>
+      <script src="js/statisticincrease.js"></script>
+      <script src="js/testimonails.js"></script>
+      <script src="js/contact.js"></script>
       <!--Toastify js-->
     
       <script src="https://cdn.jsdelivr.net/npm/toastify-js@1.12.0/src/toastify.min.js"></script>
